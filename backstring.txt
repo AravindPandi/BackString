@@ -1,0 +1,26 @@
+ public static void main(String[] args) {
+         Scanner i = new Scanner(System.in);
+        System.out.println("ENTER THE STRING");
+        String s1 = i.nextLine();
+
+
+        char[] a = new char[100];
+        int n = s1.length();
+        for (int j = 0; j < n; j++) {
+            a[j] = s1.charAt(j);
+
+        }
+for (int m = 0; m < n; m++) {
+	int o = (int) a[m];
+if (o == 97) {
+                System.out.print("z");
+            } 
+else {
+                o = o - 1;
+ System.out.print((char) o);
+
+            }
+}
+    }
+}
+// TODO code application logic here
